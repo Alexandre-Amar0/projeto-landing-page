@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+/*---------Menu Superior---------*/
+#container-menusuperior {
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+    width: auto;
+}
+
+#logo-dnc {
+    margin: 50px 0px 0px 50px;
+}
+
+#titulo-menusuperior {
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+#txt-menusuperior {
+    margin-left: 125px;
+    margin-top: 32px;
+    padding-bottom: 100px;
+}
+
+/*---------Menu Informacional---------*/
+#container-menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 75px;
+    padding: 25px;
+}
+
+.txt-informativo {
+    display: flex;
+    align-items: center;
+}
+
+/*---------Seção Vídeo---------*/
+#container-secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 50px 25px 50px 75px;
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin: 50px 0px 25px 0px;
+}
+
+/*---------Seção Carrossel---------*/
+#container-secaocarrossel {
+    background: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards {
+    margin-left: 25px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#seta-direita {
+    margin-left: 20px;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 65px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;    
+}
+
+/*---------Seção Formulário---------*/
+#container-secaoformulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background: #EAECE5;
+    border: 0;
+    border-radius: 5px;
+    margin: 15px;
+    padding-left: 10px;
+}
+
+button {
+    background: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
